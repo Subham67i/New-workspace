@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Signup</title>
+</head>
+<body>
+    <div class="outer-box">
+        <div class="inner-box">
+           <header class="signup-header">
+            <h1>Signup</h1>
+            <p>It just takes 30 second</p>
+           </header>
+           <main class="signup-body">
+                <form action="" onsubmit=" return formValidation()">
+                    <p>
+                        <label for="fullname">Full Name</label>
+                        <input type="text"  id="fullname" placeholder="name" >
+                        <p id="errorname"></p>
+                    </p>
+                    <p>
+                        <label for="email">Email</label>
+                        <input type="email"  id="email" placeholder="subham@gamil.com" >
+                        <p id="erroremail"></p>
+                    </p>
+                    <p>
+                        <label for="password">Your Password</label>
+                        <input type="password"  id="password" placeholder="*******">
+                        <p id="errorpassword"></p>
+                    </p>
+                    <p>
+                        
+                        <input type="submit"  id="submit" value="Creat Account">
+                    </p>
+                </form>
+           </main>
+          <footer class="signup-footer">
+            <p>Already have an Account <a href="login.html">Login</a></p>
+          </footer>
+        </div>
+        <div class="circle c1"></div>
+        <div class="circle c2"></div>
+      
+
+
+        <script src="script.js"></script>
+    </div>
+</body>
+</html>

@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --card-bg-color:#fff;
+    --primary-text-color:#222;
+    --secondary-text-color:#444;
+    --background-color:#eee;
+}
+.dark{
+    --card-bg-color:#333;
+    --primary-text-color:#fff;
+    --secondary-text-color:#444;
+    --background-color:#111;
+}
+
+.container{
+    padding: 50px;
+    background-color: var(--background-color);
+}
+h1{
+    text-align: center;
+    color: var(--primary-text-color);
+}
+.box{
+    --my-bg: red;
+    padding: 50px;
+    background-color: var(--card-bg-color);
+    margin: 20px;
+    border-radius: 20px;
+}
+h3{
+    color: var(--primary-text-color);
+    margin-bottom: 20px;
+}
+p{
+    color: var(--primary-text-color);
+}
